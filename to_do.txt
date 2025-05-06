@@ -1,0 +1,14 @@
+
+V for done 
+X for not
+
+
+1.                       regex_to_postfix 
+
+2. regex -> lambda nfa
+
+3. lambda nfa -> nfa
+
+4. nfa -> dfa
+
+5. check
