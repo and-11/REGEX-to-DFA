@@ -12,13 +12,13 @@ Construct a deterministic finite automaton (DFA) equivalent to a given regular e
 
 Project Structure
 
-├── regex_to_postfix.py       # Converts infix regex to postfix (Shunting Yard)
-├── postfix_to_nfa.py         # Builds a λ-NFA from postfix expression (Thompson's algorithm)
-├── lambdanfa_nfa.py          # Removes epsilon transitions (λ-NFA to NFA)
-├── nfa_to_dfa.py             # Converts NFA to DFA (subset construction)
-├── dfa_checker.py            # DFA simulator: checks if a string is accepted
-├── main.py                   # Main script: processes regex, builds automata, runs tests
-└── LFA-Assignment2_Regex_DFA_v2.json  # JSON file containing test cases
+    ├── regex_to_postfix.py       # Converts infix regex to postfix (Shunting Yard)
+    ├── postfix_to_nfa.py         # Builds a λ-NFA from postfix expression (Thompson's algorithm)
+    ├── lambdanfa_nfa.py          # Removes epsilon transitions (λ-NFA to NFA)
+    ├── nfa_to_dfa.py             # Converts NFA to DFA (subset construction)
+    ├── dfa_checker.py            # DFA simulator: checks if a string is accepted
+    ├── main.py                   # Main script: processes regex, builds automata, runs tests
+    └── LFA-Assignment2_Regex_DFA_v2.json  # JSON file containing test cases
 
 
 
